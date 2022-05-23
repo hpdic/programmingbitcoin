@@ -23,7 +23,8 @@ class FieldElement:
 
     def __ne__(self, other):
         # this should be the inverse of the == operator
-        raise NotImplementedError
+#         raise NotImplementedError
+        return not(self == other)
 
     # tag::source2[]
     def __add__(self, other):
