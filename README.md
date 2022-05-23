@@ -1,3 +1,23 @@
+# HPDIC MOD (on WSL2, so you have a graphic browser to use Jupyter)
+
+## Setup (Ubuntu 20 LTS)
+
+* Install Python pip: `sudo apt install python3-pip`
+* Install Python virtual env: `pip install virtualenv`
+* Create a virtual env for the project:
+	* `cd programmingbitcoin`
+	* `python -m venv .venv` This may take a few seconds
+
+## Execution
+
+* Activate the virtual env: `. .venv/bin/activate`
+	* To deactivate, run `deactivate` 	
+* Launch Jupyter: `jupyter notebook &`
+* Launch Browser at `http://localhost:8888/`
+
+# End of HPDIC MOD
+
+
 #[Programming Bitcoin](https://learning.oreilly.com/library/view/programming-bitcoin/9781492031482/)
 
 ###BY[ JIMMY SONG](https://github.com/jimmysong)
